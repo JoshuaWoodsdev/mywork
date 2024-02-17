@@ -109,10 +109,11 @@ html {
   }
   
   /* Layout and Spacing */
-  .container {
-    max-width: 1200px;
+  main {
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 1rem;
+    min-height: 1000px;
   }
   
   .section {

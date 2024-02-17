@@ -1,41 +1,107 @@
 {
-    "home": {
-      "title": "Welcome to My Digital Space",
-      "description": "Dive into a world where technology meets creativity. Explore my projects, thoughts, and journey through the realms of development and design.",
-      "cta": "Discover My Work"
-    },
-    "about": {
-      "title": "About Me",
-      "description": "I'm a passionate developer from Louisiana with a flair for creating engaging digital experiences. With a background in both development and design, I enjoy blending aesthetics with functionality. My toolbox includes languages like Go, JavaScript, and frameworks like Gatsby.js, along with a keen interest in open-source projects and community collaboration.",
-      "skillsTitle": "My Toolkit",
-      "skills": [
-        "Go",
-        "JavaScript",
-        "Gatsby.js",
-        "React",
-        "Solid.js",
-        "Node.js",
-        "GraphQL",
-        "HTML & CSS",
-        "UI/UX Design"
-      ],
-      "hobbiesTitle": "Beyond the Code",
-      "hobbies": [
-        "Level Design",
-        "Music Production",
-        "Photography",
-        "Gaming"
-      ]
-    },
-    "contact": {
-      "title": "Get In Touch",
-      "description": "Interested in collaborating or discussing a project? I'd love to hear from you! Reach out to me through any of the channels below, and let's create something amazing together.",
-      "email": "hello@example.com",
-      "socials": {
-        "LinkedIn": "https://linkedin.com/in/yourprofile",
-        "GitHub": "https://github.com/yourusername",
-        "Twitter": "https://twitter.com/yourusername"
+  "home": {
+    "title": "Welcome to My Digital Space",
+    "name": "Joshua Woods Developer",
+    "description": "Dive into a world where technology meets creativity. Explore my projects, thoughts, and journey through the realms of development and design.",
+    "cta": "Discover My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a passionate developer from Louisiana with a flair for creating engaging digital experiences. With a background in both development and design, I enjoy blending aesthetics with functionality. My toolbox includes languages like Go, JavaScript, and frameworks like Gatsby.js, along with a keen interest in open-source projects and community collaboration.",
+    "skillsTitle": "My Toolkit",
+    "skills": [
+      "Go",
+      "JavaScript",
+      "Gatsby.js",
+      "React",
+      "Solid.js",
+      "Node.js",
+      "GraphQL",
+      "HTML & CSS",
+      "UI/UX Design"
+    ],
+    "hobbiesTitle": "Beyond the Code",
+    "hobbies": [
+      "Level Design",
+      "Music Production",
+      "Photography",
+      "Gaming"
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Interested in collaborating or discussing a project? I'd love to hear from you! Reach out to me through any of the channels below, and let's create something amazing together.",
+    "email": "hello@example.com",
+    "socials": {
+      "LinkedIn": "https://linkedin.com/in/yourprofile",
+      "GitHub": "https://github.com/yourusername",
+      "Twitter": "https://twitter.com/yourusername"
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "description": "A showcase of my work across various technologies and platforms.",
+    "categories": {
+      "goCLIApps": {
+        "title": "Go Language CLI Apps",
+        "projects": [
+          {
+            "name": "Project 1",
+            "description": "A command-line tool built with Go for automating tasks.",
+            "url": "#"
+          },
+          {
+            "name": "Project 2",
+            "description": "Another Go CLI app for data processing.",
+            "url": "#"
+          }
+        ]
+      },
+      "interactiveMedia": {
+        "title": "Interactive Media & Games",
+        "projects": [
+          {
+            "name": "Game 1",
+            "description": "An engaging puzzle game built with Pico-8.",
+            "url": "#"
+          },
+          {
+            "name": "Game 2",
+            "description": "A 2D platformer developed in Unity.",
+            "url": "#"
+          }
+        ]
+      },
+      "frontendProjects": {
+        "title": "Frontend Projects",
+        "projects": [
+          {
+            "name": "Website 1",
+            "description": "A modern website built with Gatsby.js showcasing advanced SEO techniques.",
+            "url": "#"
+          },
+          {
+            "name": "App 1",
+            "description": "A real-time chat application built using Solid.js.",
+            "url": "#"
+          }
+        ]
+      },
+      "cSharpProjects": {
+        "title": "C# Projects",
+        "projects": [
+          {
+            "name": "Tool 1",
+            "description": "A desktop application for managing personal finances, developed with C#.",
+            "url": "#"
+          },
+          {
+            "name": "API 1",
+            "description": "A RESTful API for an e-commerce platform, built using C# and .NET Core.",
+            "url": "#"
+          }
+        ]
       }
     }
   }
-  
+}
