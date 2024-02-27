@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "gatsby";
 import "../styles/global.css"; // Import your global styles
 import data from "../data/data.json";
-
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
 const Layout = ({ children, pageTitle, pageName }) => {
     return (
         <div className="container">
