@@ -12,7 +12,7 @@ const projects = [
 
 const ProjectsContainer = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center">
+    <div className="projects-container">
       {projects.map((project, index) => (
         <ProjectCard 
           key={index}

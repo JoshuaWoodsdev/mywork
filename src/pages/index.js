@@ -11,7 +11,7 @@ const IndexPage = () => {
           <div class="mw9 center pa4 pt5-ns ph7-l">
             <h3 class="f1 f1-m f-headline-l measure-narrow lh-title mv0">
               <span class="bg-black-90 lh-copy white pa1 tracked-tight">
-                {data.home.title}dddd
+                {data.home.title}
               </span>
             </h3>
             <h4 class="f2 fw1 georgia i">{data.home.cta}</h4>

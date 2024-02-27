@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = ({ title, imageUrl, replitLink }) => {
   return (
-    <div className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
+    <div className="project-card mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
       <div className="tc">
         <img src={imageUrl} alt={title} className="br-100 h4 w4 dib ba b--black-05 pa2" />
         <h1 className="f4">{title}</h1>

@@ -2,12 +2,11 @@
   "home": {
     "title": "My Digital Space",
     "name": "Joshua Woods Developer",
-    "description": "I turn ideas into reality by combining technical expertise with practical design solutions. My projects cover a wide range of the digital landscape, from creating simple, effective tools to building complex front-end user interfaces and reliable back-end systems. Coming from a creative background, I pay close attention to design details while maintaining a strong focus on technical functionality. I value teamwork and excel in working with small, dedicated teams to meet our common goals. My aim is to develop practical, user-focused applications and systems that address real-world challenges, leveraging the newest technologies to deliver impactful results.",
-    "cta": "Discover My Work"
+    "description": "I turn ideas into reality by combining technical expertise with practical design solutions."
   },
   "about": {
     "title": "About Me",
-    "description": "I'm a passionate developer from Louisiana with a flair for creating engaging digital experiences. With a background in both development and design, I enjoy blending aesthetics with functionality. My toolbox includes languages like Go, JavaScript, and frameworks like Gatsby.js, along with a keen interest in open-source projects and community collaboration.",
+    "description": "I'm a software developer from Louisiana, specializing in creating digital experiences and practical tools. My expertise lies in combining design with functionality, using a toolkit that includes Go, JavaScript, Lua, Figma, and Linux. I primarily focus on developing CLI tools with Go and Lua, and building projects with React and Gatsby.js, occasionally exploring Solid.js for innovative solutions.",
     "skillsTitle": "My Toolkit",
     "skills": [
       "Go",
@@ -30,7 +29,7 @@
   },
   "contact": {
     "title": "Get In Touch",
-    "description": "Interested in collaborating or discussing a project? I'd love to hear from you! Reach out to me through any of the channels below, and let's create something amazing together.",
+    "description": "Interested in collaborating or discussing a project? I'd love to hear from you.",
     "email": "hello@example.com",
     "socials": {
       "LinkedIn": "https://linkedin.com/in/yourprofile",
@@ -40,7 +39,7 @@
   },
   "projects": {
     "title": "My Projects",
-    "description": "A showcase of my work across various technologies and platforms.",
+   
     "categories": {
       "goCLIApps": {
         "title": "Go Language CLI Apps",

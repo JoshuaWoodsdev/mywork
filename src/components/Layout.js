@@ -27,8 +27,6 @@ const Layout = ({ children, pageTitle, pageName }) => {
                 <a href="mailto:" class="link b f3 f2-ns dim black-70 ">nordev@protonmail.com</a>
                 <p class="f6 db b ttu lh-solid">© {new Date().getFullYear()} Joshua Woods</p>
             </footer>
-
-
         </div>
     );
 };

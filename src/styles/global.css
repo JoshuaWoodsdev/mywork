@@ -113,7 +113,7 @@ html {
     max-width: 1600px;
     margin: 0 auto;
     padding: 0 1rem;
-    min-height: 1000px;
+    min-height: 500px;
   }
   
   .section {
@@ -127,3 +127,23 @@ html {
     /* Adjust other headings and font sizes as necessary */
   }
   
+
+  /* Add this CSS to your project's stylesheet */
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Ensures consistent spacing between cards */
+  padding: 20px; /* Adds some padding around the entire container */
+  background-color: #f9f9f9; /* A light background to contrast the cards */
+}
+
+.project-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transitions for hover effects */
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Slightly raises the card on hover for a subtle effect */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Adds a shadow for depth */
+}
