@@ -12,7 +12,7 @@ const ProjectsPage = () => {
       <ul className="list pl0">
         {/* Other projects */}
         <li className="pa2">
-          <Link to="/contactcli" className="link">ContactCLI v1.0.0</Link> - A powerful command-line tool for managing your contacts.
+          <Link to="/contactcli" className="link">ContactCLI v1.0.0</Link> - A command-line tool for managing your contacts.
         </li>
         {/* Add more projects here */}
       </ul>

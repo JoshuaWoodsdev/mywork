@@ -1,6 +1,6 @@
 {
     "title": "ContactCLI v1.0.0",
-    "description": "Introducing ContactCLI, a powerful command-line tool for managing your contacts seamlessly...",
+    "description": "Introducing ContactCLI, a command-line tool for managing your contacts seamlessly...",
     "features": {
       "title": "Features",
       "list": [
@@ -17,6 +17,6 @@
       "title": "Contribute",
       "text": "Feedback and contributions are welcome! Feel free to open issues or submit pull requests on our GitHub repository."
     },
-    "githubURL": "https://github.com/yourusername/contact-cli"
+    "githubURL": "https://github.com/JoshuaWoodsdev/Contact-CLI"
   }
   

@@ -1,149 +1,147 @@
 /* global.css */
 html {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body, #___gatsby, #gatsby-focus-wrapper {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f5;
-  }
-  
-  /* Typography */
-  h1, h2, h3, h4, h5, h6, p {
-    margin: 0 0 1rem 0;
-  }
-  
-  h1 { font-size: 2.25rem; }
-  h2 { font-size: 1.75rem; }
-  h3 { font-size: 1.5rem; }
-  h4 { font-size: 1.25rem; }
-  h5 { font-size: 1rem; }
-  h6 { font-size: 0.875rem; }
-  
-  a {
-    color: #007acc;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  a:hover, a:focus {
-    color: #005fa3;
-  }
-  
-  /* Lists */
-  ul, ol {
-    margin: 0;
-    padding: 0 0 0 1.5rem;
-    list-style-position: inside;
-  }
-  
-  li {
-    margin-bottom: 0.5rem;
-  }
-  
-  /* Buttons and Inputs */
-  button, input, select, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background-color: transparent;
-    border: 1px solid #ccc;
-    padding: 0.5rem;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-  }
-  
-  button:hover, input:hover, select:hover, textarea:hover,
-  button:focus, input:focus, select:focus, textarea:focus {
-    border-color: #007acc;
-    outline: none;
-  }
-  
-  /* Forms */
-  form {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="password"],
-  textarea {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-  
-  button[type="submit"] {
-    background-color: #007acc;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #005fa3;
-  }
-  
-  /* Utility Classes */
-  .text-center {
-    text-align: center;
-  }
-  
-  /* Layout and Spacing */
-  main {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    min-height: 500px;
-  }
-  
-  .section {
-    padding: 2rem 0;
-  }
-  
-  /* Responsive Typography */
-  @media (max-width: 768px) {
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.5rem; }
-    /* Adjust other headings and font sizes as necessary */
-  }
-  
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
 
-  /* Add this CSS to your project's stylesheet */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+body, #___gatsby, #gatsby-focus-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 1rem 0;
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
+
+a {
+  color: #007acc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover, a:focus {
+  color: #005fa3;
+}
+
+/* Lists */
+ul, ol {
+  margin: 0;
+  padding: 0 0 0 1.5rem;
+  list-style-position: inside;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons and Inputs */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+button:hover, input:hover, select:hover, textarea:hover,
+button:focus, input:focus, select:focus, textarea:focus {
+  border-color: #007acc;
+  outline: none;
+}
+
+/* Forms */
+form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #007acc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+/* Layout and Spacing */
+main {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  min-height: 500px;
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+/* Projects Container */
 .projects-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* Ensures consistent spacing between cards */
-  padding: 20px; /* Adds some padding around the entire container */
-  background-color: #f9f9f9; /* A light background to contrast the cards */
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
 
 .project-card {
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transitions for hover effects */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .project-card:hover {
-  transform: translateY(-5px); /* Slightly raises the card on hover for a subtle effect */
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Adds a shadow for depth */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  /* Adjust other headings and font sizes as necessary */
 }
