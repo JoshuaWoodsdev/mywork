@@ -1,0 +1,22 @@
+{
+    "title": "ContactCLI v1.0.0",
+    "description": "Introducing ContactCLI, a powerful command-line tool for managing your contacts seamlessly...",
+    "features": {
+      "title": "Features",
+      "list": [
+        "Effortless contact management",
+        "Add, display, and delete contacts",
+        "Persistent storage with JSON"
+      ]
+    },
+    "installation": {
+      "title": "Installation",
+      "instructions": "Download the binary for your OS, grant execution permissions, and run it directly from your terminal..."
+    },
+    "contribution": {
+      "title": "Contribute",
+      "text": "Feedback and contributions are welcome! Feel free to open issues or submit pull requests on our GitHub repository."
+    },
+    "githubURL": "https://github.com/yourusername/contact-cli"
+  }
+  

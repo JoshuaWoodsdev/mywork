@@ -1,22 +1,23 @@
 import React from "react";
-import data from "../data/data.json";
-import ProjectsContainer from "../components/projectsContainer";
-
-
+import { Link } from "gatsby"; // Import Link
 
 const ProjectsPage = () => {
-    return (
-      <div className="pa4">
-        <h1 className="f2">{data.projects.title}</h1>
-        {Object.entries(data.projects.categories).map(([key, category]) => (
-          <div key={key} className="mb5">
-            <h2 className="f3 mb3">{category.title}</h2>
-            <ProjectsContainer category={category} />
-          </div>
-        ))}
-      </div>
-    );
-  };
+  return (
+    <div className="pa4 mw7 center">
+      <h1 className="f2">My Projects</h1>
+      <p className="measure lh-copy">
+        Here's a selection of some recent projects I've been working on. Click on any project to learn more.
+      </p>
 
+      <ul className="list pl0">
+        {/* Other projects */}
+        <li className="pa2">
+          <Link to="/contactcli" className="link">ContactCLI v1.0.0</Link> - A powerful command-line tool for managing your contacts.
+        </li>
+        {/* Add more projects here */}
+      </ul>
+    </div>
+  );
+};
 
 export default ProjectsPage;

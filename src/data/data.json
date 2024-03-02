@@ -39,7 +39,6 @@
   },
   "projects": {
     "title": "My Projects",
-   
     "categories": {
       "goCLIApps": {
         "title": "Go Language CLI Apps",
@@ -53,6 +52,11 @@
             "name": "Project 2",
             "description": "Another Go CLI app for data processing.",
             "url": "#"
+          },
+          {
+            "name": "ContactCLI v1.0.0",
+            "description": "Introducing ContactCLI, a powerful command-line tool for managing your contacts seamlessly. Built with Go, it offers functionalities to add, view, and delete contacts, all within the comfort of your terminal. Features include effortless contact management, adding, displaying, and deleting contacts, and persistent storage with JSON. For installation instructions and contributions, visit our GitHub repository.",
+            "url": "https://github.com/yourusername/contact-cli"
           }
         ]
       },
