@@ -14,10 +14,13 @@ const ProjectsPage = () => {
         <li className="pa2">
           <Link to="/contactcli" className="link">ContactCLI v1.0.0</Link> - A command-line tool for managing your contacts.
         </li>
-        {/* Add more projects here */}
+        <li className="pa2">
+          <Link to="/notareactframework" className="link">Narfw</Link> - Your project's description.
+        </li>
       </ul>
     </div>
   );
 };
 
 export default ProjectsPage;
+
